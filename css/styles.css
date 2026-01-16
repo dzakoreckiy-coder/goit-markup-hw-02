@@ -1,0 +1,78 @@
+header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-display;
+    
+    
+    grid-template-columns: repeat(1,4fr);
+    gap: 20px;
+}
+.li {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    color: EEEEEE;
+}
+
+.header-info{
+    display: flex;
+    align-items: block;
+    justify-content:flex-start;
+    gap : 20px;
+}
+
+.webstudio-header{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2500ad;
+    margin-left: 24px;
+}
+
+.filters{
+    list-style: none;
+    display:-ms-inline-grid;
+    gap: 40px;
+    margin-left: 24px;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.filter-text>p{
+    align-content: center;
+    margin-left: 24px;
+}
+
+.filter_box{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    display: inline-grid;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 500, 700, 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" <width>;
+}
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" <width>;
+}
